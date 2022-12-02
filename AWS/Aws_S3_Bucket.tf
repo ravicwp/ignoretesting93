@@ -7,7 +7,7 @@ resource "aws_s3_bucket" "bucket2" {
   bucket = "examplebuckettftest"
   acl    = "private"
   versioning {
-    enabled = false
-    mfa_delete = false
+    enabled = true
+    mfa_delete = true
   }
 }
