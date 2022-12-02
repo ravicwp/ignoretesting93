@@ -12,3 +12,4 @@ resource "aws_s3_bucket" "bucket2" {
     mfa_delete = true
   }
 }
+
