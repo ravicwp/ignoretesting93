@@ -1,12 +1,4 @@
-resource "azurerm_managed_disk" "example" {
-  name                 = var.disk_name
-  location             = var.location
-  resource_group_name  = var.resource_group_name
-  storage_account_type = var.storage_account_type
-  create_option        = "Empty"
-  disk_size_gb         = var.disk_size_gb
-  tags = var.common_tags
-}
+
 resource "azurerm_virtual_machine" "my-linux-vm" {
   name                  = "my-linux-vm"
   location              = "California"
