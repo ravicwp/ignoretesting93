@@ -28,3 +28,12 @@ resource "aws_s3_bucket" "bucket4" {
     mfa_delete = false
   }
 }
+
+resource "aws_s3_bucket" "bucket5" {
+  bucket = "examplebuckettftest"
+  acl    = "private"
+  versioning {
+    enabled = false
+    mfa_delete = false
+  }
+}
