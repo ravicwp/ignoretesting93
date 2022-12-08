@@ -19,3 +19,4 @@ resource "aws_s3_bucket" "bucket3" {
     mfa_delete = false
   }
 }
+
