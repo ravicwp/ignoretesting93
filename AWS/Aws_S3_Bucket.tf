@@ -20,3 +20,11 @@ resource "aws_s3_bucket" "bucket3" {
   }
 }
 
+resource "aws_s3_bucket" "bucket4" {
+  bucket = "examplebuckettftest"
+  acl    = "private"
+  versioning {
+    enabled = false
+    mfa_delete = false
+  }
+}
