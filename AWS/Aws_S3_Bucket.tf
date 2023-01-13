@@ -64,7 +64,7 @@ resource "aws_s3_bucket" "bucket8" {
     mfa_delete = false
   }
 }
-
+ 
 
 resource "aws_s3_bucket" "bucket9" {
   bucket = "examplebuckettftest"
