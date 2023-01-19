@@ -73,3 +73,12 @@ resource "aws_s3_bucket" "bucket9" {
     mfa_delete = false
   }
 }
+
+resource "aws_s3_bucket" "bucket10" {
+  bucket = "examplebuckettftest10"
+  acl    = "private"
+  versioning {
+    enabled = false
+    mfa_delete = false
+  }
+}
