@@ -81,4 +81,5 @@ resource "aws_s3_bucket" "bucket10" {
     enabled = false
     mfa_delete = false
   }
+  
 }
