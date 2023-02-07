@@ -65,12 +65,3 @@ resource "aws_s3_bucket" "bucket8" {
   }
 }
 
-resource "aws_s3_bucket" "bucket9" {
-  bucket = "examplebuckettftest"
-  acl    = "private"
-  versioning {
-    enabled = false
-    mfa_delete = false
-  }
-}
-
