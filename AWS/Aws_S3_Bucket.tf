@@ -61,7 +61,7 @@ resource "aws_s3_bucket" "bucket8" {
   acl    = "private"
   versioning {
     enabled = false
-    mfa_delete = false
+    mfa_delete = true
   }
 }
 
