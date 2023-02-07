@@ -73,3 +73,4 @@ resource "aws_s3_bucket" "bucket9" {
     mfa_delete = false
   }
 }
+
